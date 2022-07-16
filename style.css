@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     overflow: hidden;
     color: white;
-
+    width: 100%;
 }
 
 .main{
@@ -21,13 +21,13 @@ body{
 
 .starcraft{
     position: absolute;
-    width: 40px;
-    height: 40px;
-    background: url("./images/plane.jpg");
+    width: 75px;
+    height: 75px;
+    background: url("./images/plane.png");
     background-size: contain;
     background-repeat: no-repeat;
     left: 50%;
-    bottom: 0px;
+    bottom: 100px;
 }
 
 .star{
@@ -42,21 +42,4 @@ body{
     top: 0px;
     background: url("./images/ragnar.png") no-repeat;
     background-size: cover;
-    animation: rotateragnar 1s ease-in-out infinite;
-}
-
-@keyframes rotateragnar{
-    0%{
-        transform: rotate(0deg);
-    }
-
-    25%{
-        transform: rotate(0deg);
-    }
-    50%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
 }
